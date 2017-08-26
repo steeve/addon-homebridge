@@ -78,7 +78,7 @@ if [ -z "$SLUG" ]; then
 fi
 
 BASE_IMAGE="homeassistant\/$ARCH-base:latest"
-DOCKER_IMAGE="hassioaddons/$SLUG-$ARCH"
+DOCKER_IMAGE="steeve/$SLUG-$ARCH"
 WORKSPACE=$BUILD_DIR/hassio-supervisor-$ARCH
 ADDON_WORKSPACE=$WORKSPACE/$SLUG
 
